@@ -43,7 +43,7 @@ const Features = () => {
     <section className="py-20">
       <SubHeader data={data} />
 
-      <div className="w-full flex flex-wrap justify-between gap-4">
+      <div className="w-full flex flex-wrap justify-between gap-y-4 xl:gap-4">
         {featuresList.map((item, index) => (
           <FeatureCard data={item} key={index} />
         ))}

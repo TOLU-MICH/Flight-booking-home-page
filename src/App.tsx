@@ -12,7 +12,7 @@ function App() {
     <section>
       <Navbar />
       <Hero />
-      <div className="max-w-screen-xl w-full px-8 md:px-12 m-auto">
+      <div className="max-w-screen-xl w-full px-8 md:px-12 lg:px-16 m-auto">
         <Features />
         <AboutUs />
         <Plans />
