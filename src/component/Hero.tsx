@@ -7,15 +7,15 @@ const Hero = () => {
       <div className="max-w-screen-xl w-full flex flex-col md:flex-row justify-evenly items-center m-auto h-full pt-20 md:pt-0 px-8 md:px-12 ">
         <div className="md:w-[47%] text-white flex gap-8 flex-col px-[15px] md:px-0 mb-6">
           <div>
-            <p className="text-xl md:text-3xl font-bold text-blue-400">
+            <p className="text-xl md:text-xl xl:text-3xl font-bold text-blue-400">
               Welcome To Our Website
             </p>
-            <h1 className="text-4xl md:text-6xl  font-bold leading-snug">
+            <h1 className="text-4xl md:text-3xl xl:text-6xl  font-bold leading-snug">
               Luxury Experience With Our Services.
             </h1>
           </div>
 
-          <p className="text-base md:text-xl">
+          <p className="text-base xl:text-xl">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta,
             maxime itaque. Corrupti quibusdam autem libero aspernatur labore
             provident sunt at.
