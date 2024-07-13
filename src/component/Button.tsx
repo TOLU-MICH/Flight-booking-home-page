@@ -1,4 +1,3 @@
-import React from "react";
 import { AirplaneOutline } from "react-ionicons";
 
 const Button = ({ value, icon, style }: any) => {

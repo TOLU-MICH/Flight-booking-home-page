@@ -1,6 +1,4 @@
-import React from "react";
 import Button from "./Button";
-import banner from "../assets/images/sky3.jpg";
 
 const CallToAction = () => {
   return (
