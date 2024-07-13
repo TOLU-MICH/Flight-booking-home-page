@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import { GridOutline } from "react-ionicons";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [openNav, setOpenNav] = useState<boolean>(false);

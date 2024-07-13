@@ -1,4 +1,4 @@
-import React from "react";
+
 import SubHeader from "./SubHeader";
 import PlansCard from "./PlansCard";
 import plan1 from "../assets/images/plan1.jpg";

@@ -1,5 +1,4 @@
 import { CheckmarkCircleOutline } from "react-ionicons";
-import mask from "../assets/images/mask.png";
 import Button from "./Button";
 
 const listData = [
