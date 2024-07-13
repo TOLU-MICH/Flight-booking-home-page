@@ -10,7 +10,7 @@ const Hero = () => {
             <p className="text-xl md:text-xl xl:text-3xl font-bold text-blue-400">
               Welcome To Our Website
             </p>
-            <h1 className="text-4xl md:text-3xl xl:text-6xl  font-bold leading-snug">
+            <h1 className="text-3xl md:text-3xl xl:text-6xl  font-bold leading-snug">
               Luxury Experience With Our Services.
             </h1>
           </div>
@@ -30,7 +30,7 @@ const Hero = () => {
           </span>
         </div>
         <div className="w-full md:w-[53%] px-[15px] md:px-0">
-          <img src={hero} alt="aeroplane" />
+          <img src={hero} alt="aeroplane" data-aos="fade-up-left" />
         </div>
       </div>
     </section>

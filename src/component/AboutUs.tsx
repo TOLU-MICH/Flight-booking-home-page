@@ -11,8 +11,11 @@ const listData = [
 const AboutUs = () => {
   return (
     <section className="py-20 flex flex-wrap">
-      <div className="md:w-[590px] md:h-[590px] w-full h-[350px] object-cover bg-no-repeat bg-cover relative plane-mask" />
-      <div className="flex flex-col md:w-[48%] w-full md:px-0 px-8 gap-4">
+      <div className="md:w-[590px] md:h-[590px] w-full h-[350px] object-cover bg-no-repeat relative plane-mask bg-contain" />
+      <div
+        className="flex flex-col md:w-[48%] w-full md:px-0 px-8 gap-4"
+        data-aos="fade-up-right"
+      >
         <div>
           <p className="text-blue-500 font-bold text-base">ABOUT US</p>
           <h2 className="text-gray-900 text-3xl font-medium">

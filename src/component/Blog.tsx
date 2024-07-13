@@ -39,7 +39,7 @@ const Blog = () => {
     <section className="max-w-screen-xl w-full px-8 md:px-12 m-auto">
       <SubHeader data={data} />
 
-      <div className="flex gap-4 md:justify-between flex-wrap">
+      <div className="flex gap-y-4 gap-x-3 lg:gap-0 justify-center lg:justify-between flex-wrap">
         {posts.map((item, index) => (
           <PlansCard data={item} key={index} />
         ))}

@@ -33,7 +33,7 @@ const Plans = () => {
       <div>
         <SubHeader data={data} />
       </div>
-      <div className="flex gap-4 md:justify-between flex-wrap">
+      <div className="flex gap-y-4 gap-x-3 lg:gap-0 justify-center lg:justify-between flex-wrap">
         {plansList.map((item, index) => (
           <PlansCard data={item} key={index} />
         ))}
