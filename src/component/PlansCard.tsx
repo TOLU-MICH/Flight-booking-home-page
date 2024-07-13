@@ -14,7 +14,8 @@ const PlansCard = ({ data }: any) => {
   return (
     <div
       className="p-2 w-full sm:max-w-[49%] lg:max-w-[32.333%] rounded-xl shadow-[rgba(0,0,0,0.05)_0px_0px_40px_5px] h-fit hover:-translate-y-3 transition-transform duration-300 cursor-pointer"
-      data-aos="fade-up-right"
+      data-aos="fade-up"
+      data-aos-duration="1200"
     >
       <img
         src={data.image}

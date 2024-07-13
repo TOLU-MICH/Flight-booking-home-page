@@ -30,7 +30,12 @@ const Hero = () => {
           </span>
         </div>
         <div className="w-full md:w-[53%] px-[15px] md:px-0">
-          <img src={hero} alt="aeroplane" data-aos="fade-up-left" />
+          <img
+            src={hero}
+            alt="aeroplane"
+            data-aos="fade-up-left"
+            data-aos-duration="800"
+          />
         </div>
       </div>
     </section>

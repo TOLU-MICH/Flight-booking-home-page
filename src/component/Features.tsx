@@ -45,7 +45,8 @@ const Features = () => {
 
       <div
         className="w-full flex flex-wrap justify-center gap-3 lg:justify-between gap-y-4 xl:gap-4"
-        data-aos="fade-up-right"
+        data-aos="fade-up"
+        data-aos-duration="800"
       >
         {featuresList.map((item, index) => (
           <FeatureCard data={item} key={index} />

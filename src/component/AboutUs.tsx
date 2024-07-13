@@ -14,7 +14,8 @@ const AboutUs = () => {
       <div className="md:w-[590px] md:h-[590px] w-full h-[350px] object-cover bg-no-repeat relative plane-mask bg-contain" />
       <div
         className="flex flex-col md:w-[48%] w-full md:px-0 px-8 gap-4"
-        data-aos="fade-up-right"
+        data-aos="fade-up"
+        data-aos-duration="800"
       >
         <div>
           <p className="text-blue-500 font-bold text-base">ABOUT US</p>
